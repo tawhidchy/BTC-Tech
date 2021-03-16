@@ -20,6 +20,7 @@ public class BaseMethod {
 		tg.maximizeWindow();
 		tg.deleteAllCookie();
 		tg.verifyUrl("https://www.target.com/");
+		System.out.println("modify");
 		Thread.sleep(3000);
 		tg.clickOnElement(By.cssSelector("#account > span.AccountLink__SvgUserWrapper-gx13jw-0.cmGbcQ > span > div > svg"));
 		Thread.sleep(3000);
